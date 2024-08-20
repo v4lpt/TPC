@@ -3,8 +3,8 @@
 Welcome to Tomato Potato Clock. This is a classic pomodoro timer (this version: distraction-free). Right now: Alternating sections of 25 and 5 minutes - running in perpetuity (till stop/close app). 
 If you found this app, you know what kind of person you are ;). Hence, there no options at all and you also cannot pause the timer. This is part of the design of this app. Good luck with your endeavours.
  
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/packages/v4lpt.vpt.c016.tpc/)
-[<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid" height="80">](https://apt.izzysoft.de/fdroid/index/apk/v4lpt.vpt.c016.tpc)
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/packages/v4lpt.vpt.c016.TPC/)
+[<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid" height="80">](https://apt.izzysoft.de/fdroid/index/apk/v4lpt.vpt.c016.TPC)
 [<img src="https://raw.githubusercontent.com/v4lpt/GDP/master/Badge/github.png" alt="Get it on GitHub" height="80">](https://github.com/v4lpt/TPC/releases/latest)
 
 ## Features
