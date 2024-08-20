@@ -31,10 +31,9 @@ src="fastlane/metadata/android/en-US/images/phoneScreenshots/6.png?raw=true">](f
 
 ## License
 
-This project is licensed under the **GNU General Public License (GPL)**. See the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the **GNU General Public License (GPL)**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 Created with :heart: by [Valentin](https://github.com/v4lpt)
 
-Tags: Pomodoro timer, procrastination, student, learning, studying, productivity, 'lofi hip hop radio 📚 - beats to relax/study to', work, code, do boring but necessary stuff, paper work, time blindness, special needs, minimal design, one button app
