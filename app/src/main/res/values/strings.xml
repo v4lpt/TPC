@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">VPT#016-TPC - Tomato Potato Clock</string>
+    <string name="anleitung">Welcome to Tomato Potato Clock. This is a classic pomodoro timer (this version: distraction-free). Right now: Alternating sections of 25 and 5 minutes - running in perpetuity (till stop/close app). \n\nIf you found this app, you know what kind of person you are ;). Hence, there no options at all and you also cannot pause the timer. This is part of the design of this app. Good luck with your endeavours.\n\nGifted to you be Valentin ♥️.
+
+    </string>
+
+    <string name="LICENSE">
+        Copyright 2024 Valentin\'s PowerTools\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along with this program. If not, see\nhttps://www.gnu.org/licenses.\n\nHere is the github link: https://github.com/v4lpt/TPC
+
+    </string>
+    <string name="copy">Copyright and License Information</string>
+
+    <string name="infobuttontextforblinds">Information Button (gives you Information)</string>
+    <string name="powertools">Valentin\'s PowerTools #016</string>
+    <string name="app_name_show">Tomato Potato Clock</string>
+</resources>

@@ -1,0 +1,12 @@
+Welcome to Tomato Potato Clock. This is a classic pomodoro timer (this version: distraction-free). Right now: Alternating sections of 25 and 5 minutes - running in perpetuity (till stop/close app). 
+If you found this app, you know what kind of person you are ;). Hence, there no options at all and you also cannot pause the timer. This is part of the design of this app. Good luck with your endeavours.
+ 
+<b>Features</b>
+- ⚫ Distraction-free: No status or navigation bar, no numbers, no letters - just visual and acoustic feedback of time. 
+- 🎶 Sounds: A sound is played each time a new slice/section begins.
+
+Gifted to you by Valentin ❤️
+
+Tags: Pomodoro timer, procrastination, student, learning, studying, productivity, 'lofi hip hop radio 📚 - beats to relax/study to', work, code, do boring but necessary stuff, paper work, time blindness, special needs, minimal design, one button app
+
+

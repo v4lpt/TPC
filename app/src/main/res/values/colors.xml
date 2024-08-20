@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="vptredt">#FF0000</color>
+    <color name="vptred">#7D2121</color>
+
+    <color name="vptturkt">#00FFDC</color>
+    <color name="vptturk">#00695A</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
