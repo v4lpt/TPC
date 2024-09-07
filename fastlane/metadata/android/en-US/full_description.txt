@@ -2,6 +2,7 @@ Welcome to Tomato Potato Clock. This is a classic pomodoro timer (this version: 
 If you found this app, you know what kind of person you are ;). Hence, there no options at all and you also cannot pause the timer. This is part of the design of this app. Good luck with your endeavours.
  
 <b>Features</b>
+
 - ⚫ Distraction-free: No status or navigation bar, no numbers, no letters - just visual and acoustic feedback of time. 
 - 🎶 Sounds: A sound is played each time a new slice/section begins.
 
