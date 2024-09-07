@@ -34,12 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome_layout);
 
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-        // Hide the navigation bar
-        View decorView = getWindow().getDecorView();
-        int uiOptions = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
-        decorView.setSystemUiVisibility(uiOptions);
+        showSystemUI();
 
         shortBreakSound = MediaPlayer.create(this, R.raw.kanlgschalde);
         longBreakSound = MediaPlayer.create(this, R.raw.kanlgschalde);
@@ -53,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         startTimerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                hideSystemUI();
                 setContentView(R.layout.activity_main);
                 circleTimerView = findViewById(R.id.circleTimerView);
                 backButton = findViewById(R.id.backButton);
@@ -69,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         resetTimerAndGoBack();
+                        showSystemUI();
                     }
                 });
                 if (savedInstanceState != null) {
@@ -90,7 +86,29 @@ public class MainActivity extends AppCompatActivity {
 
         startTimer();
     }
+    private void hideSystemUI() {
+        View decorView = getWindow().getDecorView();
+        decorView.setSystemUiVisibility(
+                View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                        | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                        | View.SYSTEM_UI_FLAG_FULLSCREEN
+                        | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
 
+        // Adjust the layout params of the rating layout
+        WindowManager.LayoutParams params = getWindow().getAttributes();
+        params.flags |= WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN | WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS;
+        getWindow().setAttributes(params);
+    }
+
+    private void showSystemUI() {
+        View decorView = getWindow().getDecorView();
+        decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
+
+        // Reset the layout params
+        WindowManager.LayoutParams params = getWindow().getAttributes();
+        params.flags &= ~(WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN | WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+        getWindow().setAttributes(params);
+    }
     private void showBackButton() {
         backButton.setVisibility(View.VISIBLE);
         handler.removeCallbacksAndMessages(null);
